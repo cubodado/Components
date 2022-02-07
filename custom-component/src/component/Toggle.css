@@ -11,7 +11,7 @@
   left: calc(100% - 35px);
 }
 
-label {
+#check-label {
   display: block;
   position: relative;
   width: 90px;
@@ -23,7 +23,7 @@ label {
   margin-right: auto;
 }
 
-label:after {
+#check-label:after {
   content: "";
   position: absolute;
   left: 5px;
