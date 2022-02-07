@@ -1,3 +1,38 @@
-#check {
+#check-toggle {
   display: none;
+  position: absolute;
+}
+
+#check-toggle:checked + label {
+  background-color: rgb(55, 5, 173);
+}
+
+#check-toggle:checked + label:after {
+  left: calc(100% - 35px);
+}
+
+label {
+  display: block;
+  position: relative;
+  width: 90px;
+  height: 40px;
+  background-color: #c9c9c9;
+  border-radius: 20px;
+  transition: all 0.4s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.4s;
 }
