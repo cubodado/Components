@@ -1,10 +1,10 @@
 import './App.css';
+import Toggle from './component/Toggle';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Toggle />
     </div>
   );
 }
