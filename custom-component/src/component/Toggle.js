@@ -2,15 +2,15 @@ import "./Toggle.css"
 import React, { useState } from "react";
 
 function Toggle() {
+  const [checkState, setCheckState] = useState(false);
   const [checkStateStr, setCheckStateStr] = useState("Off");
-  let checkState = false;
 
   const onChangeCheckState = () => {
-    checkState = !checkState;
-
-    if (checkState === true) {
+    if (checkState === false) {
+      setCheckState(true);
       setCheckStateStr("On");
     } else {
+      setCheckState(false);
       setCheckStateStr("Off");
     }
   };
