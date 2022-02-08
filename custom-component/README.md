@@ -13,10 +13,10 @@
 ## 과제 안내 사항
 
 * [ ] 여섯 가지의 예시 중에서 2가지 이상을 구현한 결과물을 Github Repository 하나에 담아서 제출하세요.
-* [ ] 2가지는 필수이며, 그 이상을 구현하실 경우 가산점이 있습니다.
+* [x] 2가지는 필수이며, 그 이상을 구현하실 경우 가산점이 있습니다.
 * [x] Create React App 을 활용합니다.
-* [ ] CSS는 어떤 것을 써도 괜찮습니다. (Tailwind, Styled-component 등)
-* [ ] 하지만 기능 구현에 직접적으로 영향을 주는 라이브러리는 사용하실 수 없습니다.
+* [x] CSS는 어떤 것을 써도 괜찮습니다. (Tailwind, Styled-component 등)
+* [x] 하지만 기능 구현에 직접적으로 영향을 주는 라이브러리는 사용하실 수 없습니다.
 
 ## Github Repository 안내 사항
 
@@ -57,11 +57,11 @@
 
 ## 수행 과제
 
-* [ ] Toggle.js
-* [ ] Modal.js
+* [x] Toggle.js
+* [x] Modal.js
 * [ ] Tab.js
 * [ ] Tag.js
 * [ ] AutoComplete.js
-* [ ] ClickToEdit.js
+* [x] ClickToEdit.js
 
 <br/>
