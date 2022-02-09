@@ -1,0 +1,44 @@
+.tab-bar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #c9c9c9;
+  height: 60px;
+}
+
+.tab-div {
+  display: flex;
+  background-color: #c9c9c9;
+  color: #949494;
+  height: 60px;
+  width: 30%;
+  text-align: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tab-div p {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.active {
+  background-color: rgb(55, 5, 173);
+  color: white;
+}
+
+.tab-content {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-div {
+  display: none;
+}
+
+.selected {
+  display: inline-block;
+}
