@@ -14,3 +14,7 @@
 #age-label {
   margin-right: 10px;
 }
+
+#name, #age {
+  text-align: center;
+}
