@@ -25,7 +25,7 @@ function ClickToEdit() {
   return (
     <div className="clickToEdit">
       <section className="title">
-        <h1>Click To Edit</h1>
+        <h1>ClickToEdit</h1>
       </section>
       <section className="border-box">
         <div className="click-box">
