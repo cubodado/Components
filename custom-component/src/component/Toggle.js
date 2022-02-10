@@ -1,3 +1,4 @@
+import './Common.css';
 import "./Toggle.css"
 import React, { useState } from "react";
 
@@ -16,12 +17,16 @@ function Toggle() {
   };
 
   return (
-    <div className="Toggle">
-      <h1>Toggle</h1>
-      <input type="checkbox" id="check-toggle" onChange={ onChangeCheckState }></input>
-      <label id="check-label" htmlFor="check-toggle">
-      </label>
-      <p>Toggle Switch { checkStateStr }</p>
+    <div className="toggle">
+      <section className="title">
+        <h1>Toggle</h1>
+      </section>
+      <section className="border-box">
+        <input type="checkbox" id="check-toggle" onChange={ onChangeCheckState }></input>
+        <label id="check-label" htmlFor="check-toggle">
+        </label>
+        <p>Toggle Switch { checkStateStr }</p>
+      </section>
     </div>
   );
 }

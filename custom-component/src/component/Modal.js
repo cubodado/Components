@@ -1,3 +1,4 @@
+import './Common.css';
 import './Modal.css';
 
 function Modal() {
@@ -13,8 +14,10 @@ function Modal() {
 
   return (
     <div className="modal">
-      <h1>Modal</h1>
-      <section className="modal-box">
+      <section className="title">
+        <h1>Modal</h1>
+      </section>
+      <section className="border-box">
         <button className="modal-btn" onClick={ openModal }>Open Modal</button>
         <section className="modal-popup hidden">
           {/* 모달 밖 클릭할 때도 창 종료할 경우에는 아래 코드로 변경/실행 */}

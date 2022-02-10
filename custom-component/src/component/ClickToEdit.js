@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import './Common.css';
 import "./ClickToEdit.css";
+import React, { useState } from 'react';
 
 function ClickToEdit() {
   const body = document.querySelector("body");
@@ -23,17 +24,21 @@ function ClickToEdit() {
 
   return (
     <div className="clickToEdit">
-      <h1>ClickToEdit</h1>
-      <section>
-        <label htmlFor="name" id="name-label">이름</label>
-        <input type="text" id="name"></input>
+      <section className="title">
+        <h1>Click To Edit</h1>
       </section>
-      <section>
-        <label htmlFor="age" id="age-label">나이</label>
-        <input type="text" id="age"></input>
-      </section>
-      <section>
-        <p>이름 { inputName } 나이 {inputAge}</p>
+      <section className="border-box">
+        <section>
+          <label htmlFor="name" id="name-label">이름</label>
+          <input type="text" id="name"></input>
+        </section>
+        <section>
+          <label htmlFor="age" id="age-label">나이</label>
+          <input type="text" id="age"></input>
+        </section>
+        <section>
+          <p>이름 { inputName } 나이 {inputAge}</p>
+        </section>
       </section>
     </div>
   );
