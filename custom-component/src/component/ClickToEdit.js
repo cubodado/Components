@@ -28,17 +28,19 @@ function ClickToEdit() {
         <h1>Click To Edit</h1>
       </section>
       <section className="border-box">
-        <section>
-          <label htmlFor="name" id="name-label">이름</label>
-          <input type="text" id="name"></input>
-        </section>
-        <section>
-          <label htmlFor="age" id="age-label">나이</label>
-          <input type="text" id="age"></input>
-        </section>
-        <section>
-          <p>이름 { inputName } 나이 {inputAge}</p>
-        </section>
+        <div className="click-box">
+          <section className="input-area">
+            <label htmlFor="name" id="name-label">이름</label>
+            <input type="text" id="name"></input>
+          </section>
+          <section className="input-area">
+            <label htmlFor="age" id="age-label">나이</label>
+            <input type="text" id="age"></input>
+          </section>
+          <section className="output-area">
+            <p>이름 { inputName } 나이 {inputAge}</p>
+          </section>
+        </div>
       </section>
     </div>
   );

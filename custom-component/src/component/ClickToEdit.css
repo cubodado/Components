@@ -1,4 +1,8 @@
-section {
+.click-box {
+  margin-top: 90px;
+}
+
+.input-area, .output-area {
   margin-top: 30px;
   margin-bottom: 30px;
 }
