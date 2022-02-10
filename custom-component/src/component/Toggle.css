@@ -1,3 +1,7 @@
+.toggle-box {
+  margin-top: 113px;
+}
+
 #check-toggle {
   display: none;
   position: absolute;

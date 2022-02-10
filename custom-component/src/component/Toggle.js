@@ -22,10 +22,12 @@ function Toggle() {
         <h1>Toggle</h1>
       </section>
       <section className="border-box">
-        <input type="checkbox" id="check-toggle" onChange={ onChangeCheckState }></input>
-        <label id="check-label" htmlFor="check-toggle">
-        </label>
-        <p>Toggle Switch { checkStateStr }</p>
+        <div className="toggle-box">
+          <input type="checkbox" id="check-toggle" onChange={ onChangeCheckState }></input>
+          <label id="check-label" htmlFor="check-toggle">
+          </label>
+          <p>Toggle Switch { checkStateStr }</p>
+        </div>
       </section>
     </div>
   );
