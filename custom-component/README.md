@@ -2,17 +2,17 @@
 
 ## Requirement 필수 제출 사항
 
-* [ ] 원티드 이력서 
-* [ ] 과제
-* [ ] Github Repository 주소
-* [ ] README 파일
+* [x] 원티드 이력서 
+* [x] 과제
+* [x] Github Repository 주소
+* [x] README 파일
   * 구현한 방법과 이유에 대한 간략한 내용
   * 구현하면서 어려웠던 점과 해결 방법 (Error Handling Log)
   * 자세한 실행 방법
 
 ## 과제 안내 사항
 
-* [ ] 여섯 가지의 예시 중에서 2가지 이상을 구현한 결과물을 Github Repository 하나에 담아서 제출하세요.
+* [x] 여섯 가지의 예시 중에서 2가지 이상을 구현한 결과물을 Github Repository 하나에 담아서 제출하세요.
 * [x] 2가지는 필수이며, 그 이상을 구현하실 경우 가산점이 있습니다.
 * [x] Create React App 을 활용합니다.
 * [x] CSS는 어떤 것을 써도 괜찮습니다. (Tailwind, Styled-component 등)
@@ -22,7 +22,7 @@
 
 * [x] Github Repository 이름: `wanted_pre_onboarding`
 
-* [ ] 꼭 public 으로 생성하세요.
+* [x] 꼭 public 으로 생성하세요.
 
 * [x] Add a README file 버튼을 클릭해서 README 파일을 생성하세요.
 
@@ -30,7 +30,7 @@
 
 * [x] `npx create-react-app custom-component` 명령어를 이용해 React 프로젝트를 생성합니다.
 
-* [ ] src 폴더 내부의 폴더 구조는 다음과 같이 생성합니다. 큰 구조는 다음 예시와 같이 component 폴더 내부에 컴포넌트 파일들을 담아주시면 되고, 나머지는 CSS 선택에 따라 자유롭게 구성해 주시면 되겠습니다.
+* [x] src 폴더 내부의 폴더 구조는 다음과 같이 생성합니다. 큰 구조는 다음 예시와 같이 component 폴더 내부에 컴포넌트 파일들을 담아주시면 되고, 나머지는 CSS 선택에 따라 자유롭게 구성해 주시면 되겠습니다.
 
   ```jsx
   (예시)
@@ -46,7 +46,7 @@
   		ClickToEdit.js
   ```
 
-* [ ] App.js 에서 모든 컴포넌트들을 눈으로 확인할 수 있도록 렌더링까지 완료해 주세요.
+* [x] App.js 에서 모든 컴포넌트들을 눈으로 확인할 수 있도록 렌더링까지 완료해 주세요.
 
 ## 사용 기술
 
@@ -59,7 +59,7 @@
 
 * [x] Toggle.js
 * [x] Modal.js
-* [ ] Tab.js
+* [x] Tab.js
 * [ ] Tag.js
 * [ ] AutoComplete.js
 * [x] ClickToEdit.js
