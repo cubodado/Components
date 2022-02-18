@@ -1,9 +1,3 @@
-# wanted_pre_onboarding
-
-* 제출자 강현영
-
-<br/>
-
 # 구현 컴포넌트 목록
 
 * [Tab](#Tab)
