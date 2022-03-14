@@ -31,11 +31,11 @@ function ClickToEdit() {
         <div className="click-box">
           <section className="input-area">
             <label htmlFor="name" id="name-label">이름</label>
-            <input type="text" id="name"></input>
+            <input type="text" id="name" autoComplete="off"></input>
           </section>
           <section className="input-area">
             <label htmlFor="age" id="age-label">나이</label>
-            <input type="text" id="age"></input>
+            <input type="text" id="age" autoComplete="off"></input>
           </section>
           <section className="output-area">
             <p>이름 { inputName } 나이 {inputAge}</p>

@@ -25,7 +25,7 @@ function Modal() {
           <div className="modal-background"></div>
           <div className="modal-popup-content">
             <button className="close-btn" onClick={ closeModal }>X</button>
-            <p id="modal-text">HELLO CODESTATES!</p>
+            <p id="modal-text">HELLO!</p>
           </div>
         </section>
       </section>
